@@ -10,18 +10,7 @@ public class AssignmentOne {
         System.out.println(" PART 1 - HEALTH PROFESSIONAL ");
         System.out.println("==============================");
 
-        //Create a professional with specified working days.
-        HealthProfessinal professinal1 = 
-              new DemoProfessinal1(
-                "10001",
-                "Alex Chen",
-                EnumSet.of(
-                    DayOfWeek.MONDAY,
-                    DayOfWeek.WEDNESDAY,
-                    DayOfWeek.FRIDAY
-                )
-              ); 
-                  
+              
 
 
         
