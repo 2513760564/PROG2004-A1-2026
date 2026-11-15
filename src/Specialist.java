@@ -54,4 +54,11 @@ public class Specialist extends HealthProfessional{
     public String toString(){
         return super.toString() + ", Specialty Area: " + specialtyArea;
     }
+
+    //Describes the specialist's professional duty.
+    @Override
+    public String performProfessionalDuty(){
+        return "Provides specialist consultations in "
+                + specialtyArea + ".";
+    }
 }

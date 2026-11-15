@@ -64,5 +64,12 @@ public class Dietitian extends HealthProfessional{
         return super.toString()
                 + ", Focus Area=" + focusArea;
     }  
+
+    //Describes the dietitian's professional duty.
+    @Override
+    public String performProfessionalDuty(){
+        return "Provides nutrition consultations in "
+                + focusArea + ".";
+    }
 }
  

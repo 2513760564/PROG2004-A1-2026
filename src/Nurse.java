@@ -58,6 +58,13 @@ public class Nurse extends HealthProfessional{
         public String toString(){
             return super.toString() + ", Nursing Level: " + nursingLevel;
         }
+
+        //Describes the nurse's professional duty.
+        @Override
+        public String performProfessionalDuty(){
+            return "Provides nursing care at "
+                    + nursingLevel + " level.";
+        }
         
     
 

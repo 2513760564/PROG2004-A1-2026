@@ -8,7 +8,7 @@ import java.util.Set;
 
 
 
-public class HealthProfessional {
+public abstract class HealthProfessional {
     //Common attribuutes shared by all health professionals.
     private final String id;
     private final String name;
@@ -39,7 +39,7 @@ public class HealthProfessional {
 
         this.id = id.trim();
         this.name = name.trim();
-
+ 
         //Create a defensive copy and prevent external modification.
         this.workingDays = Collections.unmodifiableSet(
             EnumSet.copyOf(workingDays));
@@ -66,6 +66,9 @@ public class HealthProfessional {
     public Set<DayOfWeek> getWorkingDays() {
         return workingDays;
     }
+
+    //Performs a profesional duty specific to each health professional type.
+    public abstract String performProfessionalDuty();
 
     //Returns a readable description of the health professional.
     @Override 
