@@ -24,18 +24,7 @@ public class AssignmentOne {
         Specialist specialist1 = new Specialist("20001","Morgan Brown",  EnumSet.of(DayOfWeek.MONDAY,DayOfWeek.THURSDAY),"Cardiology");
 
         //Create a nurse.
-         Nurse nurse1 =
-                new Nurse(
-                        "30001",
-                        "Jamie Wilson",
-                        EnumSet.of(
-                                DayOfWeek.MONDAY,
-                                DayOfWeek.TUESDAY,
-                                DayOfWeek.WEDNESDAY,
-                                DayOfWeek.FRIDAY
-                        ),
-                        "Registered Nurse"
-                );
+        Nurse nurse1 = new Nurse("30001","Emily Wilson", EnumSet.of(DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, DayOfWeek.FRIDAY),"Registered Nurse");
 
         //Create a dietician.
         Dietitian dietitian1 = new Dietitian("40001","Casey Taylor", EnumSet.of(DayOfWeek.MONDAY, DayOfWeek.WEDNESDAY),"Sports Nutrition");
@@ -66,7 +55,7 @@ public class AssignmentOne {
             System.out.println(
                 professional.getName()
                 + " (" + professional.getClass().getSimpleName()
-                + " ("
+                + " )"
             );
 
             System.out.println(

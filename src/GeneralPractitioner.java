@@ -56,7 +56,7 @@ public class GeneralPractitioner extends HealthProfessional{
     //Describes the GP's professional duty.
     @Override
     public String performProfessionalDuty(){
-        return "Provides general medical consultations at"
+        return "Provides general medical consultations at "
                 + clinicName + ".";
     }
 
