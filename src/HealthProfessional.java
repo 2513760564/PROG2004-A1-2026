@@ -1,5 +1,5 @@
-
 package src;
+
 import java.time.DayOfWeek;
 import java.util.Collections;
 import java.util.EnumSet;
