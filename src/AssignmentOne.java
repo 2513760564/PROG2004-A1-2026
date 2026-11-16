@@ -16,10 +16,10 @@ public class AssignmentOne {
     //Main method used to demonstrate the system.
     public static void main(String[] args){
 
-        System.out.println("===================================");
-        System.out.println("  HEALTH SERVICE MANAGEMENT SYSTEM  ");
-        System.out.println("   HEALTH PROFESSIONALS  ");
-        System.out.println("===================================");
+        System.out.println("=======================================");
+        System.out.println("   HEALTH SERVICE MANAGEMENT SYSTEM  ");
+        System.out.println("        HEALTH PROFESSIONALS  ");
+        System.out.println("=======================================");
 
         //Create an ArrayList using the common parent type.
         ArrayList<HealthProfessional> professionals = new ArrayList<>();
@@ -48,7 +48,7 @@ public class AssignmentOne {
 
         //Display all professionals details.
         System.out.println("\nPART 1: PROFESSIONAL DETAILS");
-        System.out.println("-----------------------------------");
+        System.out.println("--------------------------------------");
 
         for (HealthProfessional professional : professionals){
             System.out.println(professional);
@@ -78,7 +78,7 @@ public class AssignmentOne {
             "Total health professionals: "
             + professionals.size());
 
-        System.out.println("Part 3 demonstration completed.");
+        System.out.println("PART 3 DEMONSTRATION COMPLETED");
 
         System.out.println("\n\n===================================");
         System.out.println(" PART 6 - APPOINTMENT MANAGEMENT  ");
@@ -330,9 +330,9 @@ public class AssignmentOne {
                 "FINAL APPOINTMENT LIST",
                 manager.getSortedAppointments());
 
-        System.out.println("\n===================================");
+        System.out.println("\n====================================");
         System.out.println(" PART 6 DEMONSTRATION COMPLETED ");
-        System.out.println("===================================");
+        System.out.println("======================================");
     }
 
         //Displays a collection of appointments in a readable format.

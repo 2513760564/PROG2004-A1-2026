@@ -69,15 +69,15 @@ public abstract class HealthProfessional {
 
     //Performs a profesional duty specific to each health professional type.
     public abstract String performProfessionalDuty();
-
+ 
     //Returns a readable description of the health professional.
     @Override 
     public String toString(){
         return getClass().getSimpleName()
-                + " [ID: " + id
+                + " ID: " + id
                 + ", Name: " + name
-                + ", Working Days: " + workingDays
-                + "]";
+                + ", Working Days: " + workingDays;
+                
     }
 
     //Compares health professionals using their unique IDs.
